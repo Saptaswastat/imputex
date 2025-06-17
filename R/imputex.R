@@ -23,7 +23,6 @@
 utils::globalVariables(c("value", "type"))
 #' @export
 impute_all_methods <- function(data) {
-  utils::globalVariables(c("value", "type"))
 
   if (!requireNamespace("mice", quietly = TRUE) ||
       !requireNamespace("VIM", quietly = TRUE) ||
