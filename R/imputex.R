@@ -19,6 +19,8 @@
 #' @importFrom mice mice complete
 #' @importFrom reshape2 melt
 #' @importFrom ggplot2 ggplot aes geom_density facet_wrap labs theme_minimal
+
+utils::globalVariables(c("value", "type"))
 #' @export
 impute_all_methods <- function(data) {
   utils::globalVariables(c("value", "type"))
