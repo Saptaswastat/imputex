@@ -1,0 +1,23 @@
+Package: imputex
+Type: Package
+Title: gives 3 types of imputation results
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Jane", "Doe",
+      email = "jane@example.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: More about what it does (maybe more than one line).
+    Continuation lines should be indented.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Imports:
+    VIM,
+    ggplot2,
+    mice,
+    reshape2
+
