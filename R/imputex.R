@@ -14,12 +14,12 @@
 #'   \item{plots}{A list of `ggplot2` objects showing density comparisons for each imputation method.}
 #' }
 #'
-#' @importFrom utils globalVariables
+
 #' @importFrom VIM kNN
 #' @importFrom mice mice complete
 #' @importFrom reshape2 melt
 #' @importFrom ggplot2 ggplot aes geom_density facet_wrap labs theme_minimal
-
+#' @importFrom utils globalVariables
 utils::globalVariables(c("value", "type"))
 #' @export
 impute_all_methods <- function(data) {
